@@ -2,8 +2,8 @@
 //  DoctorSigninViewController.swift
 //  PushPill
 //
-//  Created by LeeSunhyoup on 2016. 4. 19..
-//  Copyright © 2016년 Kim Ga-eun. All rights reserved.
+//  Created by Gaeun Kim on 2016. 4. 19..
+//  Copyright © 2016 Kim Ga-eun. All rights reserved.
 //
 
 import UIKit
