@@ -6,21 +6,21 @@ provides-nominal:
 provides-member:
 - ["C6Spring15SpringAnimation", ""]
 provides-dynamic-lookup:
+- "springLinear"
+- "springEaseInOut"
+- "springEaseIn"
+- "springEaseOut"
 - "springWithCompletion"
 - "spring"
-- "springEaseIn"
 - "springWithDelay"
-- "springLinear"
-- "springEaseOut"
-- "springEaseInOut"
 depends-top-level:
+- !private "UIView"
+- !private "Array"
 - "SpringAnimation"
 - "Bool"
-- !private "UIView"
-- "NSObject"
-- "NSTimeInterval"
 - "Void"
-- !private "Array"
+- "NSTimeInterval"
+- "NSObject"
 depends-member:
 - !private ["Ps9AnyObject", "UIView"]
 - !private ["Ps9AnyObject", "animateWithDuration"]
@@ -198,8 +198,8 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
-- "/Users/parkingsq1/Documents/project/PushPill/Pods/Target Support Files/Spring/Spring-umbrella.h"
-- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Intermediates/Pods.build/Debug-iphoneos/Spring.build/unextended-module.modulemap"
+- "/Users/parkingsq1/Documents/PushPill/PushPillClient/Pods/Target Support Files/Spring/Spring-umbrella.h"
+- "/Users/parkingsq1/Documents/PushPill/PushPillClient/DerivedData/PushPill/Build/Intermediates/Pods.build/Debug-iphoneos/Spring.build/unextended-module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"

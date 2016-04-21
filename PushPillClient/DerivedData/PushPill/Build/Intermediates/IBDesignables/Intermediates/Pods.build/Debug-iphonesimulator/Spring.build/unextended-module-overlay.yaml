@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': '/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Spring/Spring.framework/Modules'
+    'name': '/Users/parkingsq1/Documents/PushPill/PushPillClient/DerivedData/PushPill/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Spring.framework/Modules'
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',
-      'external-contents': '/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/Spring.build/unextended-module.modulemap',
+      'external-contents': '/Users/parkingsq1/Documents/PushPill/PushPillClient/DerivedData/PushPill/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/Spring.build/unextended-module.modulemap',
     }]
   }]
 }

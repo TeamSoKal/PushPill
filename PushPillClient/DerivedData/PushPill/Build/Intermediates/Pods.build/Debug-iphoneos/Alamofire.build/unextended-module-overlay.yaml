@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': '/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules'
+    'name': '/Users/parkingsq1/Documents/PushPill/PushPillClient/DerivedData/PushPill/Build/Products/Debug-iphoneos/Alamofire.framework/Modules'
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',
-      'external-contents': '/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Intermediates/Pods.build/Debug-iphoneos/Alamofire.build/unextended-module.modulemap',
+      'external-contents': '/Users/parkingsq1/Documents/PushPill/PushPillClient/DerivedData/PushPill/Build/Intermediates/Pods.build/Debug-iphoneos/Alamofire.build/unextended-module.modulemap',
     }]
   }]
 }

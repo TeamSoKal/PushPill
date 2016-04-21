@@ -6,14 +6,14 @@ provides-nominal:
 provides-member:
 - ["C6Spring19DesignableImageView", ""]
 provides-dynamic-lookup:
-- "borderColor"
-- "borderWidth"
 - "cornerRadius"
+- "borderWidth"
+- "borderColor"
 depends-top-level:
 - "UIColor"
 - "DesignableImageView"
-- "SpringImageView"
 - "CGFloat"
+- "SpringImageView"
 depends-member:
 - !private ["Ps9AnyObject", "CGColor"]
 - ["Ps9AnyObject", "UIColor"]
@@ -245,8 +245,8 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Users/parkingsq1/Documents/project/PushPill/Pods/Target Support Files/Spring/Spring-umbrella.h"
-- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/Spring.build/unextended-module.modulemap"
+- "/Users/parkingsq1/Documents/PushPill/PushPillClient/Pods/Target Support Files/Spring/Spring-umbrella.h"
+- "/Users/parkingsq1/Documents/PushPill/PushPillClient/DerivedData/PushPill/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/Spring.build/unextended-module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"

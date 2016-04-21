@@ -15,27 +15,27 @@ provides-member:
 - ["C9Alamofire7Request", "validate"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "BooleanLiteralType"
-- "SequenceType"
-- !private "&&"
-- "String"
-- !private "=="
-- !private "~="
-- !private "Error"
 - !private "Bool"
-- "StringLiteralType"
-- !private "..<"
 - "NSHTTPURLResponse"
+- "UnicodeScalarType"
+- !private "??"
+- !private "..<"
+- !private "NSCharacterSet"
+- !private "&&"
 - !private "+"
 - !private ">"
-- "UnicodeScalarType"
 - !private "Range"
 - "NSURLRequest"
-- "Int"
-- !private "??"
-- "Request"
+- !private "BooleanLiteralType"
 - "NSError"
-- !private "NSCharacterSet"
+- "String"
+- !private "Error"
+- !private "~="
+- !private "=="
+- "SequenceType"
+- "StringLiteralType"
+- "Int"
+- "Request"
 depends-member:
 - !private ["Ps9AnyObject", "Error"]
 - !private ["Ps9AnyObject", "MIMEType"]
@@ -722,8 +722,8 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
-- "/Users/parkingsq1/Documents/project/PushPill/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
-- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Intermediates/Pods.build/Debug-iphoneos/Alamofire.build/unextended-module.modulemap"
+- "/Users/parkingsq1/Documents/PushPill/PushPillClient/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/parkingsq1/Documents/PushPill/PushPillClient/DerivedData/PushPill/Build/Intermediates/Pods.build/Debug-iphoneos/Alamofire.build/unextended-module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"

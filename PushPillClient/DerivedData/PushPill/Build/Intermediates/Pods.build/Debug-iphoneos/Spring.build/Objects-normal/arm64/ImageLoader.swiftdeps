@@ -7,20 +7,20 @@ provides-member:
 - ["C6Spring11ImageLoader", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "NSURL"
-- "NSCache"
-- !private "NSData"
-- "UIImage"
-- !private "dispatch_get_global_queue"
-- !private "DISPATCH_QUEUE_PRIORITY_BACKGROUND"
-- "ImageLoader"
-- !private "dispatch_async"
-- !private "NSURLSessionDataTask"
-- "String"
-- !private "Void"
-- !private "NSURLSession"
 - !private "!="
+- "UIImage"
+- !private "DISPATCH_QUEUE_PRIORITY_BACKGROUND"
+- !private "NSURLSessionDataTask"
+- !private "dispatch_get_global_queue"
 - !private "dispatch_get_main_queue"
+- "NSCache"
+- !private "NSURL"
+- !private "NSData"
+- !private "Void"
+- "String"
+- !private "dispatch_async"
+- "ImageLoader"
+- !private "NSURLSession"
 depends-member:
 - !private ["Ps9AnyObject", "DISPATCH_QUEUE_PRIORITY_BACKGROUND"]
 - !private ["Ps9AnyObject", "ImageLoader"]
@@ -169,8 +169,8 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
-- "/Users/parkingsq1/Documents/project/PushPill/Pods/Target Support Files/Spring/Spring-umbrella.h"
-- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Intermediates/Pods.build/Debug-iphoneos/Spring.build/unextended-module.modulemap"
+- "/Users/parkingsq1/Documents/PushPill/PushPillClient/Pods/Target Support Files/Spring/Spring-umbrella.h"
+- "/Users/parkingsq1/Documents/PushPill/PushPillClient/DerivedData/PushPill/Build/Intermediates/Pods.build/Debug-iphoneos/Spring.build/unextended-module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"

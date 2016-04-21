@@ -1,5 +1,5 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
-options: "30d8bd5c4532ff191e8e409a610ca869"
-build_time: [514397253, 913569000]
+options: "91f94a0e7dda20ce5a97f699ce48ec58"
+build_time: [514575721, 324681000]
 inputs:
-  "/Users/parkingsq1/Documents/project/PushPill/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [514366815, 0]
+  "/Users/parkingsq1/Documents/PushPill/PushPillClient/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [514557586, 0]

@@ -36,24 +36,24 @@ provides-member:
 - ["CSo6UIView", "snp_removeConstraints"]
 - ["CSo6UIView", "snp_installedLayoutConstraints"]
 provides-dynamic-lookup:
-- "snp_removeConstraints"
 - "snp_installedLayoutConstraints"
+- "snp_removeConstraints"
 depends-top-level:
-- "UIView"
-- "ConstraintItem"
-- "Constraint"
-- "Void"
-- "StringLiteralType"
-- "ConstraintMaker"
-- !private "ConstraintAttributes"
-- !private "installedLayoutConstraintsKey"
-- !private "objc_getAssociatedObject"
 - !private "objc_setAssociatedObject"
-- "View"
-- "LayoutConstraint"
+- !private "ConstraintAttributes"
 - !private "objc_AssociationPolicy"
-- "UInt"
+- "LayoutConstraint"
+- "ConstraintItem"
+- "Void"
 - "String"
+- "UInt"
+- "UIView"
+- !private "objc_getAssociatedObject"
+- "View"
+- "ConstraintMaker"
+- "Constraint"
+- !private "installedLayoutConstraintsKey"
+- "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "ConstraintAttributes"]
 - !private ["Ps9AnyObject", "ConstraintItem"]
@@ -746,8 +746,8 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
-- "/Users/parkingsq1/Documents/project/PushPill/Pods/Target Support Files/SnapKit/SnapKit-umbrella.h"
-- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Intermediates/Pods.build/Debug-iphoneos/SnapKit.build/unextended-module.modulemap"
+- "/Users/parkingsq1/Documents/PushPill/PushPillClient/Pods/Target Support Files/SnapKit/SnapKit-umbrella.h"
+- "/Users/parkingsq1/Documents/PushPill/PushPillClient/DerivedData/PushPill/Build/Intermediates/Pods.build/Debug-iphoneos/SnapKit.build/unextended-module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"

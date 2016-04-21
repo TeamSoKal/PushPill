@@ -6,29 +6,29 @@ provides-nominal:
 provides-member:
 - ["C6Spring24KeyboardLayoutConstraint", ""]
 provides-dynamic-lookup:
-- "updateConstant"
 - "awakeFromNib"
-- "keyboardWillHideNotification"
 - "keyboardWillShowNotification"
+- "updateConstant"
+- "keyboardWillHideNotification"
 depends-top-level:
-- "NSNotification"
-- !private "NSValue"
-- !private "UIViewAnimationOptions"
-- !private "+"
-- !private "UIKeyboardFrameEndUserInfoKey"
-- "CGFloat"
-- "NSLayoutConstraint"
-- !private "NSNotificationCenter"
-- !private "UIKeyboardAnimationCurveUserInfoKey"
-- !private "UIApplication"
-- "KeyboardLayoutConstraint"
 - !private "NSNumber"
+- "CGFloat"
 - !private "UIKeyboardWillHideNotification"
 - !private "NSTimeInterval"
 - !private "UIKeyboardAnimationDurationUserInfoKey"
-- !private "UIView"
+- "NSLayoutConstraint"
 - !private "UIKeyboardWillShowNotification"
+- "NSNotification"
+- !private "UIApplication"
+- !private "NSValue"
 - !private "StringLiteralType"
+- !private "UIViewAnimationOptions"
+- !private "+"
+- !private "NSNotificationCenter"
+- "KeyboardLayoutConstraint"
+- !private "UIKeyboardAnimationCurveUserInfoKey"
+- !private "UIKeyboardFrameEndUserInfoKey"
+- !private "UIView"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Ps9AnyObject", "CGRectValue"]
@@ -573,8 +573,8 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Users/parkingsq1/Documents/project/PushPill/Pods/Target Support Files/Spring/Spring-umbrella.h"
-- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/Spring.build/unextended-module.modulemap"
+- "/Users/parkingsq1/Documents/PushPill/PushPillClient/Pods/Target Support Files/Spring/Spring-umbrella.h"
+- "/Users/parkingsq1/Documents/PushPill/PushPillClient/DerivedData/PushPill/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/Spring.build/unextended-module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
