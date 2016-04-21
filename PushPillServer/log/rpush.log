@@ -1,0 +1,64 @@
+  [1m[36mRpush::Client::ActiveRecord::App Load (1.5ms)[0m  [1mSELECT "rpush_apps".* FROM "rpush_apps"[0m
+[2016-04-20 03:33:16] [ios_app] Starting 1 dispatcher... 
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "rpush_notifications" WHERE (processing = 'f' AND delivered = 'f' AND failed = 'f' AND (deliver_after IS NULL OR deliver_after < '2016-04-19 18:33:16.192542'))
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mRpush::Client::ActiveRecord::Notification Load (0.3ms)[0m  SELECT  "rpush_notifications".* FROM "rpush_notifications" WHERE (processing = 'f' AND delivered = 'f' AND failed = 'f' AND (deliver_after IS NULL OR deliver_after < '2016-04-19 18:33:16.199266'))  ORDER BY created_at ASC LIMIT 100 
+  [1m[36mSQL (1.1ms)[0m  [1mUPDATE "rpush_notifications" SET processing = 't' WHERE "rpush_notifications"."id" = 1[0m
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "rpush_notifications" WHERE (processing = 'f' AND delivered = 'f' AND failed = 'f' AND (deliver_after IS NULL OR deliver_after < '2016-04-19 18:33:16.250270'))[0m
+[2016-04-20 03:33:16] [ios_app] 1 sent to 8b9f90eada4edf18366df0385f7c9c6e38caff88a9c4e7aab40b258af5dea0cd
+  [1m[35mSQL (1.2ms)[0m  UPDATE "rpush_notifications" SET processing = 'f', delivered = 't', delivered_at = '2016-04-19 18:33:16.803325' WHERE "rpush_notifications"."id" = 1
+[2016-04-20 03:33:16] [ERROR] [ios_app] Notification 1 failed with error: Invalid token (8)
+  [1m[36mSQL (3.3ms)[0m  [1mUPDATE "rpush_notifications" SET processing = 'f', delivered = 'f', delivered_at = NULL, failed = 't', failed_at = '2016-04-19 18:33:16.966574', error_code = 8, error_description = 'Invalid token (8)' WHERE "rpush_notifications"."id" = 1[0m
+  [1m[36mRpush::Client::ActiveRecord::App Load (1.5ms)[0m  [1mSELECT "rpush_apps".* FROM "rpush_apps"[0m
+[2016-04-20 03:33:59] [ios_app] Starting 1 dispatcher... 
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "rpush_notifications" WHERE (processing = 'f' AND delivered = 'f' AND failed = 'f' AND (deliver_after IS NULL OR deliver_after < '2016-04-19 18:33:59.934275'))
+  [1m[36mRpush::Client::ActiveRecord::App Load (1.7ms)[0m  [1mSELECT "rpush_apps".* FROM "rpush_apps"[0m
+[2016-04-20 03:34:24] [ios_app] Starting 1 dispatcher... 
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "rpush_notifications" WHERE (processing = 'f' AND delivered = 'f' AND failed = 'f' AND (deliver_after IS NULL OR deliver_after < '2016-04-19 18:34:24.320705'))
+  [1m[36mRpush::Client::ActiveRecord::App Load (1.4ms)[0m  [1mSELECT "rpush_apps".* FROM "rpush_apps"[0m
+[2016-04-20 03:34:52] [ios_app] Starting 1 dispatcher... 
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "rpush_notifications" WHERE (processing = 'f' AND delivered = 'f' AND failed = 'f' AND (deliver_after IS NULL OR deliver_after < '2016-04-19 18:34:52.102927'))
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mRpush::Client::ActiveRecord::Notification Load (0.2ms)[0m  SELECT  "rpush_notifications".* FROM "rpush_notifications" WHERE (processing = 'f' AND delivered = 'f' AND failed = 'f' AND (deliver_after IS NULL OR deliver_after < '2016-04-19 18:34:52.108394'))  ORDER BY created_at ASC LIMIT 100 
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "rpush_notifications" SET processing = 't' WHERE "rpush_notifications"."id" = 2[0m
+  [1m[35m (2.4ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "rpush_notifications" WHERE (processing = 'f' AND delivered = 'f' AND failed = 'f' AND (deliver_after IS NULL OR deliver_after < '2016-04-19 18:34:52.158406'))[0m
+[2016-04-20 03:34:52] [ios_app] 2 sent to 8b9f90eada4edf18366df0385f7c9c6e38caff88a9c4e7aab40b258af5dea0cd
+  [1m[35mSQL (3.0ms)[0m  UPDATE "rpush_notifications" SET processing = 'f', delivered = 't', delivered_at = '2016-04-19 18:34:52.709704' WHERE "rpush_notifications"."id" = 2
+[2016-04-20 03:34:52] [ERROR] [ios_app] Notification 2 failed with error: Invalid token (8)
+  [1m[36mSQL (3.0ms)[0m  [1mUPDATE "rpush_notifications" SET processing = 'f', delivered = 'f', delivered_at = NULL, failed = 't', failed_at = '2016-04-19 18:34:52.884034', error_code = 8, error_description = 'Invalid token (8)' WHERE "rpush_notifications"."id" = 2[0m
+  [1m[36mRpush::Client::ActiveRecord::App Load (1.7ms)[0m  [1mSELECT "rpush_apps".* FROM "rpush_apps"[0m
+[2016-04-20 03:35:23] [ios_app] Starting 1 dispatcher... 
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "rpush_notifications" WHERE (processing = 'f' AND delivered = 'f' AND failed = 'f' AND (deliver_after IS NULL OR deliver_after < '2016-04-19 18:35:23.896533'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mRpush::Client::ActiveRecord::Notification Load (0.4ms)[0m  SELECT  "rpush_notifications".* FROM "rpush_notifications" WHERE (processing = 'f' AND delivered = 'f' AND failed = 'f' AND (deliver_after IS NULL OR deliver_after < '2016-04-19 18:35:23.901040'))  ORDER BY created_at ASC LIMIT 100 
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "rpush_notifications" SET processing = 't' WHERE "rpush_notifications"."id" = 3[0m
+  [1m[35m (2.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "rpush_notifications" WHERE (processing = 'f' AND delivered = 'f' AND failed = 'f' AND (deliver_after IS NULL OR deliver_after < '2016-04-19 18:35:23.946454'))[0m
+[2016-04-20 03:35:24] [ios_app] 3 sent to 8b9f90eada4edf18366df0385f7c9c6e38caff88a9c4e7aab40b258af5dea0cd
+  [1m[35mSQL (0.6ms)[0m  UPDATE "rpush_notifications" SET processing = 'f', delivered = 't', delivered_at = '2016-04-19 18:35:24.474202' WHERE "rpush_notifications"."id" = 3
+[2016-04-20 03:35:24] [ERROR] [ios_app] Notification 3 failed with error: Invalid token (8)
+  [1m[36mSQL (3.0ms)[0m  [1mUPDATE "rpush_notifications" SET processing = 'f', delivered = 'f', delivered_at = NULL, failed = 't', failed_at = '2016-04-19 18:35:24.639935', error_code = 8, error_description = 'Invalid token (8)' WHERE "rpush_notifications"."id" = 3[0m
+  [1m[36mRpush::Client::ActiveRecord::App Load (2.0ms)[0m  [1mSELECT "rpush_apps".* FROM "rpush_apps"[0m
+[2016-04-20 03:42:08] [ios_app] Starting 1 dispatcher... 
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "rpush_notifications" WHERE (processing = 'f' AND delivered = 'f' AND failed = 'f' AND (deliver_after IS NULL OR deliver_after < '2016-04-19 18:42:08.426094'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mRpush::Client::ActiveRecord::Notification Load (0.2ms)[0m  SELECT  "rpush_notifications".* FROM "rpush_notifications" WHERE (processing = 'f' AND delivered = 'f' AND failed = 'f' AND (deliver_after IS NULL OR deliver_after < '2016-04-19 18:42:08.432487'))  ORDER BY created_at ASC LIMIT 100 
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "rpush_notifications" SET processing = 't' WHERE "rpush_notifications"."id" = 4[0m
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "rpush_notifications" WHERE (processing = 'f' AND delivered = 'f' AND failed = 'f' AND (deliver_after IS NULL OR deliver_after < '2016-04-19 18:42:08.500118'))[0m
+[2016-04-20 03:42:09] [ios_app] 4 sent to 6b1067c65739ec8cbe00d7e07eb767ee7b69918886a78ec982ce773d54847ebb
+  [1m[35mSQL (0.9ms)[0m  UPDATE "rpush_notifications" SET processing = 'f', delivered = 't', delivered_at = '2016-04-19 18:42:09.820040' WHERE "rpush_notifications"."id" = 4
+[2016-04-20 03:42:10] [ERROR] [ios_app] Notification 4 failed with error: Invalid token (8)
+  [1m[36mSQL (1.4ms)[0m  [1mUPDATE "rpush_notifications" SET processing = 'f', delivered = 'f', delivered_at = NULL, failed = 't', failed_at = '2016-04-19 18:42:10.072661', error_code = 8, error_description = 'Invalid token (8)' WHERE "rpush_notifications"."id" = 4[0m
+  [1m[36mRpush::Client::ActiveRecord::App Load (2.2ms)[0m  [1mSELECT "rpush_apps".* FROM "rpush_apps"[0m
+[2016-04-20 03:52:47] [ios_app] Starting 1 dispatcher... 
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "rpush_notifications" WHERE (processing = 'f' AND delivered = 'f' AND failed = 'f' AND (deliver_after IS NULL OR deliver_after < '2016-04-19 18:52:47.324985'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mRpush::Client::ActiveRecord::Notification Load (0.2ms)[0m  SELECT  "rpush_notifications".* FROM "rpush_notifications" WHERE (processing = 'f' AND delivered = 'f' AND failed = 'f' AND (deliver_after IS NULL OR deliver_after < '2016-04-19 18:52:47.330274'))  ORDER BY created_at ASC LIMIT 100 
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "rpush_notifications" SET processing = 't' WHERE "rpush_notifications"."id" = 5[0m
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "rpush_notifications" WHERE (processing = 'f' AND delivered = 'f' AND failed = 'f' AND (deliver_after IS NULL OR deliver_after < '2016-04-19 18:52:47.378772'))[0m
+[2016-04-20 03:52:48] [ios_app] 5 sent to 5f3b6ffa8a61ef882f5e2a34003df922e88fd6bafbb488a5bb09625b44a51917
+  [1m[35mSQL (3.0ms)[0m  UPDATE "rpush_notifications" SET processing = 'f', delivered = 't', delivered_at = '2016-04-19 18:52:48.553525' WHERE "rpush_notifications"."id" = 5

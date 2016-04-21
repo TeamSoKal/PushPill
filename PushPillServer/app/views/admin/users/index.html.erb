@@ -1,0 +1,17 @@
+
+<table class="table">
+  <thead>
+    <tr>
+      <td>ID</td>
+      <td>Email</td>
+    </tr>
+  </thead>
+
+  <tbody>
+    <%= render partial: 'row', collection: @users %>
+  </tbody>
+</table>
+
+<div class='col-md-12'>
+  <%= will_paginate @users, renderer: BootstrapPagination::Rails, class: 'pagination-sm pull-left', previous_label: '«', next_label: '»' %>
+</div>

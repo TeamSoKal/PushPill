@@ -1,0 +1,23 @@
+
+<div class="col-md-12">
+    <div class="row">
+        <div class="col-md-12">
+          <%= simple_form_for(@pill, url: api_pill_path(@pill.id), html: {class: 'form-horizontal'}) do |f| %>
+              <%= f.input :user_id, as: :hidden, input_html: { value: params[:user_id] } %>
+              <%= f.input :image_path, placeholder: 'Image', wrapper: nil, label: 'Image', input_html: {class: 'form-control', value: @pill.image_path} %>
+              <%= f.input :name, wrapper: nil, label: 'Name', input_html: {class: 'form-control', value: @pill.name } %>
+              <%= f.input :number, wrapper: nil, label: 'Number', input_html: {class: 'form-control', value: @pill.number } %>
+              Week<br>
+              <%= f.collection_check_boxes :week, Pill::WEEK, :first, :last %>
+              <%= f.input :time, collection: Pill::TIME, wrapper: nil, label: 'Time', input_html: {class: 'form-control', value: @pill.time} %>
+              <%= f.input :notes, wrapper: nil, label: 'Notes', input_html: {class: 'form-control', value: @pill.notes }, as: :text %>
+              <br>
+              <%= f.submit 'Save', class: 'btn btn-primary btn-block' %>
+          <% end %>
+        </div>
+    </div>
+</div>
+
+<script>
+
+</script>

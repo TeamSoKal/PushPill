@@ -1,0 +1,1 @@
+json.(@doctor, :email, :name)
