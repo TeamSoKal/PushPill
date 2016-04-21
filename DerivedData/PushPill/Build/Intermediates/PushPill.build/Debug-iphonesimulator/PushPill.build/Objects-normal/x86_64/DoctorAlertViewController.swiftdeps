@@ -1,0 +1,644 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DoctorAlertViewController"
+provides-nominal:
+- "C8PushPill25DoctorAlertViewController"
+provides-member:
+- ["C8PushPill25DoctorAlertViewController", ""]
+provides-dynamic-lookup:
+- "send"
+- "viewDidLoad"
+- "textView"
+depends-top-level:
+- !private "Config"
+- !private "UIAlertView"
+- "UIViewController"
+- "DoctorAlertViewController"
+- "Int"
+- !private "Alamofire"
+- !private "print"
+- "UITextView"
+- !private "JSON"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "Alamofire"]
+- !private ["Ps9AnyObject", "Config"]
+- !private ["Ps9AnyObject", "JSON"]
+- !private ["Ps9AnyObject", "UIAlertView"]
+- !private ["Ps9AnyObject", "baseURL"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "localizedDescription"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "responseJSON"]
+- ["Ps9AnyObject", "send"]
+- !private ["Ps9AnyObject", "show"]
+- ["Ps9AnyObject", "textView"]
+- ["Ps9AnyObject", "userId"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "deinit"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "bool"]
+- !private ["Ps23ArrayLiteralConvertible", "init"]
+- !private ["Ps23ArrayLiteralConvertible", "subscript"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "Generator"]
+- !private ["Ps25BooleanLiteralConvertible", "Index"]
+- !private ["Ps25BooleanLiteralConvertible", "SubSequence"]
+- !private ["Ps25BooleanLiteralConvertible", "_Element"]
+- !private ["Ps25BooleanLiteralConvertible", "bool"]
+- !private ["Ps25BooleanLiteralConvertible", "init"]
+- !private ["Ps25BooleanLiteralConvertible", "subscript"]
+- !private ["Ps11BooleanType", "Generator"]
+- !private ["Ps11BooleanType", "Index"]
+- !private ["Ps11BooleanType", "SubSequence"]
+- !private ["Ps11BooleanType", "_Element"]
+- !private ["Ps11BooleanType", "bool"]
+- !private ["Ps11BooleanType", "init"]
+- !private ["Ps11BooleanType", "subscript"]
+- !private ["Ps11CVarArgType", "Alamofire"]
+- !private ["Ps11CVarArgType", "Config"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "JSON"]
+- !private ["Ps11CVarArgType", "UIAlertView"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "localizedDescription"]
+- !private ["Ps11CVarArgType", "print"]
+- ["Ps11CVarArgType", "send"]
+- !private ["Ps11CVarArgType", "show"]
+- ["Ps11CVarArgType", "textView"]
+- ["Ps11CVarArgType", "userId"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "bool"]
+- !private ["Ps14CollectionType", "init"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "Generator"]
+- !private ["Ps10Comparable", "Index"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "SubSequence"]
+- !private ["Ps10Comparable", "_DisabledRangeIndex"]
+- !private ["Ps10Comparable", "_Element"]
+- !private ["Ps10Comparable", "bool"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "subscript"]
+- !private ["C8PushPill6Config", "baseURL"]
+- !private ["Ps28CustomDebugStringConvertible", "Alamofire"]
+- !private ["Ps28CustomDebugStringConvertible", "Config"]
+- !private ["Ps28CustomDebugStringConvertible", "Failure"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "JSON"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "Success"]
+- !private ["Ps28CustomDebugStringConvertible", "UIAlertView"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "bool"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "localizedDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "responseJSON"]
+- !private ["Ps28CustomDebugStringConvertible", "result"]
+- ["Ps28CustomDebugStringConvertible", "send"]
+- !private ["Ps28CustomDebugStringConvertible", "show"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "textView"]
+- ["Ps28CustomDebugStringConvertible", "userId"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Alamofire"]
+- !private ["Ps23CustomStringConvertible", "Config"]
+- !private ["Ps23CustomStringConvertible", "Failure"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "JSON"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "Success"]
+- !private ["Ps23CustomStringConvertible", "UIAlertView"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "bool"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "localizedDescription"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "responseJSON"]
+- !private ["Ps23CustomStringConvertible", "result"]
+- ["Ps23CustomStringConvertible", "send"]
+- !private ["Ps23CustomStringConvertible", "show"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "textView"]
+- ["Ps23CustomStringConvertible", "userId"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps28DictionaryLiteralConvertible", "Generator"]
+- !private ["Ps28DictionaryLiteralConvertible", "Index"]
+- !private ["Ps28DictionaryLiteralConvertible", "SubSequence"]
+- !private ["Ps28DictionaryLiteralConvertible", "_Element"]
+- !private ["Ps28DictionaryLiteralConvertible", "bool"]
+- !private ["Ps28DictionaryLiteralConvertible", "init"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- !private ["C8PushPill25DoctorAlertViewController", "Alamofire"]
+- !private ["C8PushPill25DoctorAlertViewController", "Config"]
+- ["C8PushPill25DoctorAlertViewController", "Int"]
+- !private ["C8PushPill25DoctorAlertViewController", "JSON"]
+- !private ["C8PushPill25DoctorAlertViewController", "UIAlertView"]
+- ["C8PushPill25DoctorAlertViewController", "UITextView"]
+- ["C8PushPill25DoctorAlertViewController", "deinit"]
+- ["C8PushPill25DoctorAlertViewController", "init"]
+- !private ["C8PushPill25DoctorAlertViewController", "print"]
+- ["C8PushPill25DoctorAlertViewController", "send"]
+- ["C8PushPill25DoctorAlertViewController", "textView"]
+- ["C8PushPill25DoctorAlertViewController", "userId"]
+- ["C8PushPill25DoctorAlertViewController", "viewDidLoad"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Alamofire"]
+- !private ["Ps9Equatable", "Config"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "Generator"]
+- !private ["Ps9Equatable", "Index"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "JSON"]
+- !private ["Ps9Equatable", "POST"]
+- !private ["Ps9Equatable", "SubSequence"]
+- !private ["Ps9Equatable", "UIAlertView"]
+- !private ["Ps9Equatable", "_DisabledRangeIndex"]
+- !private ["Ps9Equatable", "_Element"]
+- !private ["Ps9Equatable", "bool"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "localizedDescription"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "send"]
+- !private ["Ps9Equatable", "show"]
+- !private ["Ps9Equatable", "subscript"]
+- ["Ps9Equatable", "textView"]
+- ["Ps9Equatable", "userId"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps9ErrorType", "localizedDescription"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "Generator"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "Index"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "SubSequence"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "_Element"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "bool"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "subscript"]
+- !private ["Sf", "deinit"]
+- !private ["Ps23FloatLiteralConvertible", "Generator"]
+- !private ["Ps23FloatLiteralConvertible", "Index"]
+- !private ["Ps23FloatLiteralConvertible", "SubSequence"]
+- !private ["Ps23FloatLiteralConvertible", "_Element"]
+- !private ["Ps23FloatLiteralConvertible", "bool"]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps23FloatLiteralConvertible", "subscript"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps16ForwardIndexType", "_DisabledRangeIndex"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "Alamofire"]
+- !private ["Ps8Hashable", "Config"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "JSON"]
+- !private ["Ps8Hashable", "POST"]
+- !private ["Ps8Hashable", "UIAlertView"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "localizedDescription"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "send"]
+- !private ["Ps8Hashable", "show"]
+- ["Ps8Hashable", "textView"]
+- ["Ps8Hashable", "userId"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "bool"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Generator"]
+- !private ["Ps25IntegerLiteralConvertible", "Index"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "SubSequence"]
+- !private ["Ps25IntegerLiteralConvertible", "_Element"]
+- !private ["Ps25IntegerLiteralConvertible", "bool"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps25IntegerLiteralConvertible", "subscript"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["V10SwiftyJSON4JSON", "Generator"]
+- !private ["V10SwiftyJSON4JSON", "Index"]
+- !private ["V10SwiftyJSON4JSON", "SubSequence"]
+- !private ["V10SwiftyJSON4JSON", "_Element"]
+- !private ["V10SwiftyJSON4JSON", "bool"]
+- !private ["V10SwiftyJSON4JSON", "deinit"]
+- !private ["V10SwiftyJSON4JSON", "init"]
+- !private ["V10SwiftyJSON4JSON", "subscript"]
+- !private ["V10SwiftyJSON9JSONIndex", "Distance"]
+- !private ["V10SwiftyJSON9JSONIndex", "_DisabledRangeIndex"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "IntegerLiteralType"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- !private ["O9Alamofire6Method", "POST"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "Alamofire"]
+- !private ["PSo8NSCoding", "Config"]
+- !private ["PSo8NSCoding", "JSON"]
+- !private ["PSo8NSCoding", "UIAlertView"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "localizedDescription"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "send"]
+- !private ["PSo8NSCoding", "show"]
+- ["PSo8NSCoding", "textView"]
+- ["PSo8NSCoding", "userId"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "localizedDescription"]
+- !private ["CSo7NSError", "localizedDescription"]
+- !private ["PSo26NSExtensionRequestHandling", "Alamofire"]
+- !private ["PSo26NSExtensionRequestHandling", "Config"]
+- !private ["PSo26NSExtensionRequestHandling", "JSON"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertView"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "send"]
+- ["PSo26NSExtensionRequestHandling", "textView"]
+- ["PSo26NSExtensionRequestHandling", "userId"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "Alamofire"]
+- !private ["CSo8NSObject", "Config"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "JSON"]
+- !private ["CSo8NSObject", "UIAlertView"]
+- ["CSo8NSObject", "UITextView"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "localizedDescription"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "send"]
+- !private ["CSo8NSObject", "show"]
+- ["CSo8NSObject", "textView"]
+- ["CSo8NSObject", "userId"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "Alamofire"]
+- !private ["PSo16NSObjectProtocol", "Config"]
+- !private ["PSo16NSObjectProtocol", "JSON"]
+- !private ["PSo16NSObjectProtocol", "UIAlertView"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "localizedDescription"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "send"]
+- !private ["PSo16NSObjectProtocol", "show"]
+- ["PSo16NSObjectProtocol", "textView"]
+- ["PSo16NSObjectProtocol", "userId"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "localizedDescription"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps21NilLiteralConvertible", "Generator"]
+- !private ["Ps21NilLiteralConvertible", "Index"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- !private ["Ps21NilLiteralConvertible", "SubSequence"]
+- !private ["Ps21NilLiteralConvertible", "_Element"]
+- !private ["Ps21NilLiteralConvertible", "bool"]
+- !private ["Ps21NilLiteralConvertible", "init"]
+- !private ["Ps21NilLiteralConvertible", "subscript"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps16RawRepresentable", "Generator"]
+- !private ["Ps16RawRepresentable", "Index"]
+- !private ["Ps16RawRepresentable", "POST"]
+- !private ["Ps16RawRepresentable", "SubSequence"]
+- !private ["Ps16RawRepresentable", "_Element"]
+- !private ["Ps16RawRepresentable", "bool"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "subscript"]
+- !private ["C9Alamofire7Request", "responseJSON"]
+- !private ["V9Alamofire8Response", "result"]
+- !private ["O9Alamofire6Result", "Failure"]
+- !private ["O9Alamofire6Result", "Success"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "bool"]
+- !private ["Ps12SequenceType", "init"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Vs5Slice", "bool"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "Generator"]
+- !private ["Ps24StringLiteralConvertible", "Index"]
+- !private ["Ps24StringLiteralConvertible", "SubSequence"]
+- !private ["Ps24StringLiteralConvertible", "_Element"]
+- !private ["Ps24StringLiteralConvertible", "bool"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "subscript"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "show"]
+- !private ["CSo11UIAlertView", "init"]
+- !private ["CSo11UIAlertView", "show"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "show"]
+- !private ["PSo21UIAppearanceContainer", "Alamofire"]
+- !private ["PSo21UIAppearanceContainer", "Config"]
+- !private ["PSo21UIAppearanceContainer", "JSON"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertView"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "send"]
+- !private ["PSo21UIAppearanceContainer", "show"]
+- ["PSo21UIAppearanceContainer", "textView"]
+- ["PSo21UIAppearanceContainer", "userId"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "Alamofire"]
+- !private ["PSo18UIContentContainer", "Config"]
+- !private ["PSo18UIContentContainer", "JSON"]
+- !private ["PSo18UIContentContainer", "UIAlertView"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "send"]
+- ["PSo18UIContentContainer", "textView"]
+- ["PSo18UIContentContainer", "userId"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "show"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "show"]
+- !private ["PSo18UIFocusEnvironment", "Alamofire"]
+- !private ["PSo18UIFocusEnvironment", "Config"]
+- !private ["PSo18UIFocusEnvironment", "JSON"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertView"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "send"]
+- !private ["PSo18UIFocusEnvironment", "show"]
+- ["PSo18UIFocusEnvironment", "textView"]
+- ["PSo18UIFocusEnvironment", "userId"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo11UIResponder", "Alamofire"]
+- !private ["CSo11UIResponder", "Config"]
+- ["CSo11UIResponder", "Int"]
+- !private ["CSo11UIResponder", "JSON"]
+- !private ["CSo11UIResponder", "UIAlertView"]
+- ["CSo11UIResponder", "UITextView"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "send"]
+- !private ["CSo11UIResponder", "show"]
+- ["CSo11UIResponder", "textView"]
+- ["CSo11UIResponder", "userId"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "Alamofire"]
+- !private ["PSo16UIStateRestoring", "Config"]
+- !private ["PSo16UIStateRestoring", "JSON"]
+- !private ["PSo16UIStateRestoring", "UIAlertView"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "send"]
+- ["PSo16UIStateRestoring", "textView"]
+- ["PSo16UIStateRestoring", "userId"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "Alamofire"]
+- !private ["PSo18UITraitEnvironment", "Config"]
+- !private ["PSo18UITraitEnvironment", "JSON"]
+- !private ["PSo18UITraitEnvironment", "UIAlertView"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "send"]
+- !private ["PSo18UITraitEnvironment", "show"]
+- ["PSo18UITraitEnvironment", "textView"]
+- ["PSo18UITraitEnvironment", "userId"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "show"]
+- !private ["CSo16UIViewController", "Alamofire"]
+- !private ["CSo16UIViewController", "Config"]
+- ["CSo16UIViewController", "Int"]
+- !private ["CSo16UIViewController", "JSON"]
+- !private ["CSo16UIViewController", "UIAlertView"]
+- ["CSo16UIViewController", "UITextView"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "send"]
+- ["CSo16UIViewController", "textView"]
+- ["CSo16UIViewController", "userId"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["P9Alamofire20URLStringConvertible", "deinit"]
+- !private ["P9Alamofire20URLStringConvertible", "init"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "Generator"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "Index"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "SubSequence"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "_Element"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "bool"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "subscript"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "_DisabledRangeIndex"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "show"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- !private "C8PushPill6Config"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Ps28DictionaryLiteralConvertible"
+- "C8PushPill25DoctorAlertViewController"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps9ErrorType"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "V10SwiftyJSON4JSON"
+- !private "V10SwiftyJSON9JSONIndex"
+- !private "P10SwiftyJSON17JSONSubscriptType"
+- !private "O9Alamofire6Method"
+- !private "Ps14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps16RawRepresentable"
+- !private "C9Alamofire7Request"
+- !private "V9Alamofire8Response"
+- !private "O9Alamofire6Result"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo11UIAlertView"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "P9Alamofire20URLStringConvertible"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-umbrella.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/module.modulemap"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDecoder.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+interface-hash: "3fab5f18c627a7ed59aff48ce691d948"

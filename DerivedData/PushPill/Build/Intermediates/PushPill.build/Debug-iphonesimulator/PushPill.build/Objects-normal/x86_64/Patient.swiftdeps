@@ -1,0 +1,107 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Patient"
+provides-nominal:
+- "C8PushPill7Patient"
+provides-member:
+- ["C8PushPill7Patient", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Mappable"
+- "Patient"
+- "Pill"
+- "Map"
+- "String"
+- !private "<-"
+- "Int"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "age"]
+- !private ["Ps9AnyObject", "email"]
+- !private ["Ps9AnyObject", "id"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "mapping"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "pills"]
+- !private ["Ps9AnyObject", "subscript"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "deinit"]
+- !private ["Si", "deinit"]
+- !private ["C12ObjectMapper3Map", "subscript"]
+- !private ["P12ObjectMapper8Mappable", "age"]
+- !private ["P12ObjectMapper8Mappable", "email"]
+- !private ["P12ObjectMapper8Mappable", "id"]
+- ["P12ObjectMapper8Mappable", "init"]
+- ["P12ObjectMapper8Mappable", "mapping"]
+- !private ["P12ObjectMapper8Mappable", "name"]
+- !private ["P12ObjectMapper8Mappable", "pills"]
+- ["P12ObjectMapper8Mappable", ""]
+- !private ["Sq", "deinit"]
+- ["C8PushPill7Patient", "Int"]
+- ["C8PushPill7Patient", "Map"]
+- ["C8PushPill7Patient", "Pill"]
+- ["C8PushPill7Patient", "String"]
+- ["C8PushPill7Patient", "age"]
+- ["C8PushPill7Patient", "deinit"]
+- ["C8PushPill7Patient", "email"]
+- ["C8PushPill7Patient", "id"]
+- ["C8PushPill7Patient", "init"]
+- ["C8PushPill7Patient", "mapping"]
+- ["C8PushPill7Patient", "name"]
+- ["C8PushPill7Patient", "pills"]
+- !private ["C8PushPill4Pill", "deinit"]
+- !private ["SS", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Si"
+- !private "C12ObjectMapper3Map"
+- "P12ObjectMapper8Mappable"
+- !private "Sq"
+- "C8PushPill7Patient"
+- !private "C8PushPill4Pill"
+- !private "SS"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-umbrella.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/module.modulemap"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDecoder.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+interface-hash: "1a2b93316bd7ab4e6787543fdc57d6e8"

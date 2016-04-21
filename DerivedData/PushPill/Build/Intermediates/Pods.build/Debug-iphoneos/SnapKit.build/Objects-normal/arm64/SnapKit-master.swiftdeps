@@ -1,0 +1,16 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "f1b5d68d279ae3d4be428c13ef6cc649"
+build_time: [514397255, 86224000]
+inputs:
+  "/Users/parkingsq1/Documents/project/PushPill/Pods/SnapKit/Source/Constraint.swift": [514374884, 0]
+  "/Users/parkingsq1/Documents/project/PushPill/Pods/SnapKit/Source/ConstraintAttributes.swift": [514374884, 0]
+  "/Users/parkingsq1/Documents/project/PushPill/Pods/SnapKit/Source/ConstraintDescription.swift": [514374884, 0]
+  "/Users/parkingsq1/Documents/project/PushPill/Pods/SnapKit/Source/ConstraintItem.swift": [514374884, 0]
+  "/Users/parkingsq1/Documents/project/PushPill/Pods/SnapKit/Source/ConstraintMaker.swift": [514374884, 0]
+  "/Users/parkingsq1/Documents/project/PushPill/Pods/SnapKit/Source/ConstraintRelation.swift": [514374884, 0]
+  "/Users/parkingsq1/Documents/project/PushPill/Pods/SnapKit/Source/Debugging.swift": [514374884, 0]
+  "/Users/parkingsq1/Documents/project/PushPill/Pods/SnapKit/Source/EdgeInsets.swift": [514374884, 0]
+  "/Users/parkingsq1/Documents/project/PushPill/Pods/SnapKit/Source/LayoutConstraint.swift": [514374884, 0]
+  "/Users/parkingsq1/Documents/project/PushPill/Pods/SnapKit/Source/SnapKit.swift": [514374884, 0]
+  "/Users/parkingsq1/Documents/project/PushPill/Pods/SnapKit/Source/View+SnapKit.swift": [514374884, 0]
+  "/Users/parkingsq1/Documents/project/PushPill/Pods/SnapKit/Source/ViewController+SnapKit.swift": [514374884, 0]

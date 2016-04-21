@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "0c0bc21127b01e5ec1713e7b23a5ce59"
+build_time: [514482629, 202053000]
+inputs:
+  "/Users/parkingsq1/Documents/project/PushPill/Pods/AlamofireObjectMapper/AlamofireObjectMapper/AlamofireObjectMapper.swift": [514191552, 0]

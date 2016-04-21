@@ -1,0 +1,361 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TransitionZoom"
+provides-nominal:
+- "C6Spring14TransitionZoom"
+provides-member:
+- ["C6Spring14TransitionZoom", ""]
+provides-dynamic-lookup:
+- "animationControllerForPresentedController"
+- "isPresenting"
+- "transitionDuration"
+- "duration"
+- "animateTransition"
+- "animationControllerForDismissedController"
+depends-top-level:
+- "NSObject"
+- "UIViewControllerAnimatedTransitioning"
+- !private "UITransitionContextFromViewKey"
+- !private "SpringAnimation"
+- !private "CGAffineTransformMakeScale"
+- !private "UITransitionContextToViewKey"
+- !private "delay"
+- "UIViewControllerTransitioningDelegate"
+- "UIViewControllerContextTransitioning"
+- "UIViewController"
+- "BooleanLiteralType"
+- "NSTimeInterval"
+- !private "CGAffineTransformIdentity"
+- "TransitionZoom"
+depends-member:
+- !private ["Ps9AnyObject", "CGAffineTransformIdentity"]
+- !private ["Ps9AnyObject", "CGAffineTransformMakeScale"]
+- !private ["Ps9AnyObject", "SpringAnimation"]
+- !private ["Ps9AnyObject", "UITransitionContextFromViewKey"]
+- !private ["Ps9AnyObject", "UITransitionContextToViewKey"]
+- !private ["Ps9AnyObject", "addSubview"]
+- !private ["Ps9AnyObject", "alpha"]
+- ["Ps9AnyObject", "animateTransition"]
+- ["Ps9AnyObject", "animationControllerForDismissedController"]
+- ["Ps9AnyObject", "animationControllerForPresentedController"]
+- ["Ps9AnyObject", "animationEnded"]
+- !private ["Ps9AnyObject", "delay"]
+- ["Ps9AnyObject", "duration"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "interactionControllerForDismissal"]
+- ["Ps9AnyObject", "interactionControllerForPresentation"]
+- ["Ps9AnyObject", "isPresenting"]
+- ["Ps9AnyObject", "presentationControllerForPresentedViewController"]
+- !private ["Ps9AnyObject", "springEaseInOut"]
+- !private ["Ps9AnyObject", "transform"]
+- ["Ps9AnyObject", "transitionDuration"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["Ps11CVarArgType", "CGAffineTransformIdentity"]
+- !private ["Ps11CVarArgType", "CGAffineTransformMakeScale"]
+- !private ["Ps11CVarArgType", "SpringAnimation"]
+- !private ["Ps11CVarArgType", "UITransitionContextFromViewKey"]
+- !private ["Ps11CVarArgType", "UITransitionContextToViewKey"]
+- !private ["Ps11CVarArgType", "addSubview"]
+- !private ["Ps11CVarArgType", "alpha"]
+- ["Ps11CVarArgType", "animateTransition"]
+- ["Ps11CVarArgType", "animationControllerForDismissedController"]
+- ["Ps11CVarArgType", "animationControllerForPresentedController"]
+- ["Ps11CVarArgType", "animationEnded"]
+- !private ["Ps11CVarArgType", "delay"]
+- ["Ps11CVarArgType", "duration"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "interactionControllerForDismissal"]
+- ["Ps11CVarArgType", "interactionControllerForPresentation"]
+- ["Ps11CVarArgType", "isPresenting"]
+- ["Ps11CVarArgType", "presentationControllerForPresentedViewController"]
+- !private ["Ps11CVarArgType", "springEaseInOut"]
+- !private ["Ps11CVarArgType", "transform"]
+- ["Ps11CVarArgType", "transitionDuration"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "CGAffineTransformIdentity"]
+- !private ["Ps28CustomDebugStringConvertible", "CGAffineTransformMakeScale"]
+- !private ["Ps28CustomDebugStringConvertible", "SpringAnimation"]
+- !private ["Ps28CustomDebugStringConvertible", "UITransitionContextFromViewKey"]
+- !private ["Ps28CustomDebugStringConvertible", "UITransitionContextToViewKey"]
+- !private ["Ps28CustomDebugStringConvertible", "addSubview"]
+- !private ["Ps28CustomDebugStringConvertible", "alpha"]
+- ["Ps28CustomDebugStringConvertible", "animateTransition"]
+- ["Ps28CustomDebugStringConvertible", "animationControllerForDismissedController"]
+- ["Ps28CustomDebugStringConvertible", "animationControllerForPresentedController"]
+- ["Ps28CustomDebugStringConvertible", "animationEnded"]
+- !private ["Ps28CustomDebugStringConvertible", "delay"]
+- ["Ps28CustomDebugStringConvertible", "duration"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "interactionControllerForDismissal"]
+- ["Ps28CustomDebugStringConvertible", "interactionControllerForPresentation"]
+- ["Ps28CustomDebugStringConvertible", "isPresenting"]
+- ["Ps28CustomDebugStringConvertible", "presentationControllerForPresentedViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "springEaseInOut"]
+- !private ["Ps28CustomDebugStringConvertible", "transform"]
+- ["Ps28CustomDebugStringConvertible", "transitionDuration"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CGAffineTransformIdentity"]
+- !private ["Ps23CustomStringConvertible", "CGAffineTransformMakeScale"]
+- !private ["Ps23CustomStringConvertible", "SpringAnimation"]
+- !private ["Ps23CustomStringConvertible", "UITransitionContextFromViewKey"]
+- !private ["Ps23CustomStringConvertible", "UITransitionContextToViewKey"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addSubview"]
+- !private ["Ps23CustomStringConvertible", "alpha"]
+- ["Ps23CustomStringConvertible", "animateTransition"]
+- ["Ps23CustomStringConvertible", "animationControllerForDismissedController"]
+- ["Ps23CustomStringConvertible", "animationControllerForPresentedController"]
+- ["Ps23CustomStringConvertible", "animationEnded"]
+- !private ["Ps23CustomStringConvertible", "delay"]
+- ["Ps23CustomStringConvertible", "duration"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "interactionControllerForDismissal"]
+- ["Ps23CustomStringConvertible", "interactionControllerForPresentation"]
+- ["Ps23CustomStringConvertible", "isPresenting"]
+- ["Ps23CustomStringConvertible", "presentationControllerForPresentedViewController"]
+- !private ["Ps23CustomStringConvertible", "springEaseInOut"]
+- !private ["Ps23CustomStringConvertible", "transform"]
+- ["Ps23CustomStringConvertible", "transitionDuration"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CGAffineTransformIdentity"]
+- !private ["Ps9Equatable", "CGAffineTransformMakeScale"]
+- !private ["Ps9Equatable", "SpringAnimation"]
+- !private ["Ps9Equatable", "UITransitionContextFromViewKey"]
+- !private ["Ps9Equatable", "UITransitionContextToViewKey"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addSubview"]
+- !private ["Ps9Equatable", "alpha"]
+- ["Ps9Equatable", "animateTransition"]
+- ["Ps9Equatable", "animationControllerForDismissedController"]
+- ["Ps9Equatable", "animationControllerForPresentedController"]
+- ["Ps9Equatable", "animationEnded"]
+- !private ["Ps9Equatable", "delay"]
+- ["Ps9Equatable", "duration"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "interactionControllerForDismissal"]
+- ["Ps9Equatable", "interactionControllerForPresentation"]
+- ["Ps9Equatable", "isPresenting"]
+- ["Ps9Equatable", "presentationControllerForPresentedViewController"]
+- !private ["Ps9Equatable", "springEaseInOut"]
+- !private ["Ps9Equatable", "transform"]
+- ["Ps9Equatable", "transitionDuration"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "CGAffineTransformIdentity"]
+- !private ["Ps8Hashable", "CGAffineTransformMakeScale"]
+- !private ["Ps8Hashable", "SpringAnimation"]
+- !private ["Ps8Hashable", "UITransitionContextFromViewKey"]
+- !private ["Ps8Hashable", "UITransitionContextToViewKey"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addSubview"]
+- !private ["Ps8Hashable", "alpha"]
+- ["Ps8Hashable", "animateTransition"]
+- ["Ps8Hashable", "animationControllerForDismissedController"]
+- ["Ps8Hashable", "animationControllerForPresentedController"]
+- ["Ps8Hashable", "animationEnded"]
+- !private ["Ps8Hashable", "delay"]
+- ["Ps8Hashable", "duration"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "interactionControllerForDismissal"]
+- ["Ps8Hashable", "interactionControllerForPresentation"]
+- ["Ps8Hashable", "isPresenting"]
+- ["Ps8Hashable", "presentationControllerForPresentedViewController"]
+- !private ["Ps8Hashable", "springEaseInOut"]
+- !private ["Ps8Hashable", "transform"]
+- ["Ps8Hashable", "transitionDuration"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "alpha"]
+- !private ["PSo8NSCoding", "transform"]
+- !private ["CSo8NSObject", "CGAffineTransformIdentity"]
+- !private ["CSo8NSObject", "CGAffineTransformMakeScale"]
+- ["CSo8NSObject", "NSTimeInterval"]
+- !private ["CSo8NSObject", "SpringAnimation"]
+- !private ["CSo8NSObject", "UITransitionContextFromViewKey"]
+- !private ["CSo8NSObject", "UITransitionContextToViewKey"]
+- ["CSo8NSObject", "UIViewController"]
+- ["CSo8NSObject", "UIViewControllerAnimatedTransitioning"]
+- ["CSo8NSObject", "UIViewControllerContextTransitioning"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "alpha"]
+- ["CSo8NSObject", "animateTransition"]
+- ["CSo8NSObject", "animationControllerForDismissedController"]
+- ["CSo8NSObject", "animationControllerForPresentedController"]
+- ["CSo8NSObject", "animationEnded"]
+- !private ["CSo8NSObject", "delay"]
+- ["CSo8NSObject", "duration"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "interactionControllerForDismissal"]
+- ["CSo8NSObject", "interactionControllerForPresentation"]
+- ["CSo8NSObject", "isPresenting"]
+- ["CSo8NSObject", "presentationControllerForPresentedViewController"]
+- !private ["CSo8NSObject", "springEaseInOut"]
+- !private ["CSo8NSObject", "transform"]
+- ["CSo8NSObject", "transitionDuration"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "CGAffineTransformIdentity"]
+- !private ["PSo16NSObjectProtocol", "CGAffineTransformMakeScale"]
+- !private ["PSo16NSObjectProtocol", "SpringAnimation"]
+- !private ["PSo16NSObjectProtocol", "UITransitionContextFromViewKey"]
+- !private ["PSo16NSObjectProtocol", "UITransitionContextToViewKey"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "alpha"]
+- ["PSo16NSObjectProtocol", "animateTransition"]
+- ["PSo16NSObjectProtocol", "animationControllerForDismissedController"]
+- ["PSo16NSObjectProtocol", "animationControllerForPresentedController"]
+- ["PSo16NSObjectProtocol", "animationEnded"]
+- !private ["PSo16NSObjectProtocol", "completeTransition"]
+- !private ["PSo16NSObjectProtocol", "containerView"]
+- !private ["PSo16NSObjectProtocol", "delay"]
+- ["PSo16NSObjectProtocol", "duration"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "interactionControllerForDismissal"]
+- ["PSo16NSObjectProtocol", "interactionControllerForPresentation"]
+- ["PSo16NSObjectProtocol", "isPresenting"]
+- ["PSo16NSObjectProtocol", "presentationControllerForPresentedViewController"]
+- !private ["PSo16NSObjectProtocol", "springEaseInOut"]
+- !private ["PSo16NSObjectProtocol", "transform"]
+- ["PSo16NSObjectProtocol", "transitionDuration"]
+- !private ["PSo16NSObjectProtocol", "viewForKey"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["C6Spring15SpringAnimation", "springEaseInOut"]
+- !private ["C6Spring14TransitionZoom", "CGAffineTransformIdentity"]
+- !private ["C6Spring14TransitionZoom", "CGAffineTransformMakeScale"]
+- ["C6Spring14TransitionZoom", "NSTimeInterval"]
+- !private ["C6Spring14TransitionZoom", "SpringAnimation"]
+- !private ["C6Spring14TransitionZoom", "UITransitionContextFromViewKey"]
+- !private ["C6Spring14TransitionZoom", "UITransitionContextToViewKey"]
+- ["C6Spring14TransitionZoom", "UIViewController"]
+- ["C6Spring14TransitionZoom", "UIViewControllerAnimatedTransitioning"]
+- ["C6Spring14TransitionZoom", "UIViewControllerContextTransitioning"]
+- ["C6Spring14TransitionZoom", "animateTransition"]
+- ["C6Spring14TransitionZoom", "animationControllerForDismissedController"]
+- ["C6Spring14TransitionZoom", "animationControllerForPresentedController"]
+- ["C6Spring14TransitionZoom", "animationEnded"]
+- ["C6Spring14TransitionZoom", "deinit"]
+- !private ["C6Spring14TransitionZoom", "delay"]
+- ["C6Spring14TransitionZoom", "duration"]
+- ["C6Spring14TransitionZoom", "init"]
+- ["C6Spring14TransitionZoom", "interactionControllerForDismissal"]
+- ["C6Spring14TransitionZoom", "interactionControllerForPresentation"]
+- ["C6Spring14TransitionZoom", "isPresenting"]
+- ["C6Spring14TransitionZoom", "presentationControllerForPresentedViewController"]
+- ["C6Spring14TransitionZoom", "transitionDuration"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "alpha"]
+- !private ["PSo29UIAccessibilityIdentification", "transform"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "alpha"]
+- !private ["PSo12UIAppearance", "transform"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "alpha"]
+- !private ["PSo21UIAppearanceContainer", "transform"]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "alpha"]
+- !private ["PSo17UICoordinateSpace", "transform"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "alpha"]
+- !private ["PSo13UIDynamicItem", "transform"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "alpha"]
+- !private ["PSo18UIFocusEnvironment", "transform"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "alpha"]
+- !private ["CSo11UIResponder", "transform"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "alpha"]
+- !private ["PSo18UITraitEnvironment", "transform"]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "alpha"]
+- !private ["CSo6UIView", "transform"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "CGAffineTransformIdentity"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "CGAffineTransformMakeScale"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "SpringAnimation"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "UITransitionContextFromViewKey"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "UITransitionContextToViewKey"]
+- ["PSo37UIViewControllerAnimatedTransitioning", "animateTransition"]
+- ["PSo37UIViewControllerAnimatedTransitioning", "animationControllerForDismissedController"]
+- ["PSo37UIViewControllerAnimatedTransitioning", "animationControllerForPresentedController"]
+- ["PSo37UIViewControllerAnimatedTransitioning", "animationEnded"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "delay"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "duration"]
+- ["PSo37UIViewControllerAnimatedTransitioning", "interactionControllerForDismissal"]
+- ["PSo37UIViewControllerAnimatedTransitioning", "interactionControllerForPresentation"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "isPresenting"]
+- ["PSo37UIViewControllerAnimatedTransitioning", "presentationControllerForPresentedViewController"]
+- ["PSo37UIViewControllerAnimatedTransitioning", "transitionDuration"]
+- ["PSo37UIViewControllerAnimatedTransitioning", ""]
+- !private ["PSo36UIViewControllerContextTransitioning", "completeTransition"]
+- !private ["PSo36UIViewControllerContextTransitioning", "containerView"]
+- !private ["PSo36UIViewControllerContextTransitioning", "viewForKey"]
+- !private ["PSo37UIViewControllerTransitioningDelegate", "CGAffineTransformIdentity"]
+- !private ["PSo37UIViewControllerTransitioningDelegate", "CGAffineTransformMakeScale"]
+- !private ["PSo37UIViewControllerTransitioningDelegate", "SpringAnimation"]
+- !private ["PSo37UIViewControllerTransitioningDelegate", "UITransitionContextFromViewKey"]
+- !private ["PSo37UIViewControllerTransitioningDelegate", "UITransitionContextToViewKey"]
+- ["PSo37UIViewControllerTransitioningDelegate", "animateTransition"]
+- ["PSo37UIViewControllerTransitioningDelegate", "animationControllerForDismissedController"]
+- ["PSo37UIViewControllerTransitioningDelegate", "animationControllerForPresentedController"]
+- ["PSo37UIViewControllerTransitioningDelegate", "animationEnded"]
+- !private ["PSo37UIViewControllerTransitioningDelegate", "delay"]
+- !private ["PSo37UIViewControllerTransitioningDelegate", "duration"]
+- ["PSo37UIViewControllerTransitioningDelegate", "interactionControllerForDismissal"]
+- ["PSo37UIViewControllerTransitioningDelegate", "interactionControllerForPresentation"]
+- !private ["PSo37UIViewControllerTransitioningDelegate", "isPresenting"]
+- ["PSo37UIViewControllerTransitioningDelegate", "presentationControllerForPresentedViewController"]
+- ["PSo37UIViewControllerTransitioningDelegate", "transitionDuration"]
+- ["PSo37UIViewControllerTransitioningDelegate", ""]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "addSubview"]
+- !private ["Ps12_Reflectable", "alpha"]
+- !private ["Ps12_Reflectable", "transform"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "C6Spring15SpringAnimation"
+- "C6Spring14TransitionZoom"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo11UIResponder"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "PSo37UIViewControllerAnimatedTransitioning"
+- !private "PSo36UIViewControllerContextTransitioning"
+- "PSo37UIViewControllerTransitioningDelegate"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/parkingsq1/Documents/project/PushPill/Pods/Target Support Files/Spring/Spring-umbrella.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Intermediates/Pods.build/Debug-iphoneos/Spring.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+interface-hash: "b985af77788af9f5f2351adae32dc7f7"

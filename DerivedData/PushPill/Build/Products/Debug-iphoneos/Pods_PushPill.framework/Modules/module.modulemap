@@ -1,0 +1,6 @@
+framework module Pods_PushPill {
+  umbrella header "Pods-PushPill-umbrella.h"
+
+  export *
+  module * { export * }
+}

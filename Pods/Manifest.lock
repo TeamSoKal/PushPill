@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (3.3.1)
+  - AlamofireObjectMapper (3.0.0):
+    - Alamofire (~> 3.2)
+    - ObjectMapper (~> 1.0)
+  - DZNEmptyDataSet (1.7.3)
+  - M13Checkbox (1.2.0)
+  - ObjectMapper (1.2.0)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SnapKit (0.20.0)
+  - Spring (1.0.3)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireObjectMapper
+  - DZNEmptyDataSet
+  - M13Checkbox
+  - SDWebImage
+  - SnapKit
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift2`)
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift2
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 18d5c7b74489de8044e34767f856d1e574f0820e
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  AlamofireObjectMapper: 2d16585d06177be0116d76de73497e77437798af
+  DZNEmptyDataSet: dd7cca17c1d07dfa78956859b1e70a52505678ef
+  M13Checkbox: 741b406a1d72415e3e3af9b9b6347ff345ed2f97
+  ObjectMapper: b1e9c7c8a9f6400b72690c80072c131504caa66f
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SnapKit: 5fce3c1bbbf1fbd31de9aa92f33eb9fa03f15650
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0

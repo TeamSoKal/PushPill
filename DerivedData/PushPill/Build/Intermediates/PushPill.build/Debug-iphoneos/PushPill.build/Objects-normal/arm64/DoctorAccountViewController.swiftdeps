@@ -1,0 +1,483 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DoctorAccountViewController"
+provides-nominal:
+- "C8PushPill27DoctorAccountViewController"
+provides-member:
+- ["C8PushPill27DoctorAccountViewController", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+- "getDoctor"
+- "viewWillAppear"
+- "didReceiveMemoryWarning"
+- "emailLabel"
+- "nameLabel"
+depends-top-level:
+- "DoctorAccountViewController"
+- !private "Config"
+- !private "Doctor"
+- !private "Alamofire"
+- "UILabel"
+- "UIViewController"
+- !private "Dictionary"
+- !private "NSError"
+- !private "print"
+- !private "StringLiteralType"
+- !private "Response"
+- "Bool"
+depends-member:
+- !private ["Ps9AnyObject", "Alamofire"]
+- !private ["Ps9AnyObject", "Config"]
+- !private ["Ps9AnyObject", "baseURL"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "email"]
+- ["Ps9AnyObject", "emailLabel"]
+- ["Ps9AnyObject", "getDoctor"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "localizedDescription"]
+- !private ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "nameLabel"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "responseObject"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "token"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", "viewWillAppear"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "deinit"]
+- !private ["Ps11CVarArgType", "Alamofire"]
+- !private ["Ps11CVarArgType", "Config"]
+- ["Ps11CVarArgType", "didReceiveMemoryWarning"]
+- ["Ps11CVarArgType", "emailLabel"]
+- ["Ps11CVarArgType", "getDoctor"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "localizedDescription"]
+- ["Ps11CVarArgType", "nameLabel"]
+- !private ["Ps11CVarArgType", "print"]
+- !private ["Ps11CVarArgType", "text"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", "viewWillAppear"]
+- ["Ps11CVarArgType", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps14CollectionType", "Key"]
+- !private ["Ps14CollectionType", "Value"]
+- !private ["Ps10Comparable", "init"]
+- !private ["C8PushPill6Config", "baseURL"]
+- !private ["C8PushPill6Config", "token"]
+- !private ["Ps28CustomDebugStringConvertible", "Alamofire"]
+- !private ["Ps28CustomDebugStringConvertible", "Config"]
+- !private ["Ps28CustomDebugStringConvertible", "Failure"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "Success"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "emailLabel"]
+- ["Ps28CustomDebugStringConvertible", "getDoctor"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "localizedDescription"]
+- ["Ps28CustomDebugStringConvertible", "nameLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "responseObject"]
+- !private ["Ps28CustomDebugStringConvertible", "result"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", "viewWillAppear"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Alamofire"]
+- !private ["Ps23CustomStringConvertible", "Config"]
+- !private ["Ps23CustomStringConvertible", "Failure"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "Success"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "emailLabel"]
+- ["Ps23CustomStringConvertible", "getDoctor"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "localizedDescription"]
+- ["Ps23CustomStringConvertible", "nameLabel"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "responseObject"]
+- !private ["Ps23CustomStringConvertible", "result"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", "viewWillAppear"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- !private ["Ps28DictionaryLiteralConvertible", "Key"]
+- !private ["Ps28DictionaryLiteralConvertible", "Value"]
+- !private ["C8PushPill6Doctor", "deinit"]
+- !private ["C8PushPill6Doctor", "email"]
+- !private ["C8PushPill6Doctor", "name"]
+- !private ["C8PushPill27DoctorAccountViewController", "Alamofire"]
+- ["C8PushPill27DoctorAccountViewController", "Bool"]
+- !private ["C8PushPill27DoctorAccountViewController", "Config"]
+- !private ["C8PushPill27DoctorAccountViewController", "Doctor"]
+- !private ["C8PushPill27DoctorAccountViewController", "NSError"]
+- !private ["C8PushPill27DoctorAccountViewController", "Response"]
+- ["C8PushPill27DoctorAccountViewController", "UILabel"]
+- ["C8PushPill27DoctorAccountViewController", "deinit"]
+- ["C8PushPill27DoctorAccountViewController", "didReceiveMemoryWarning"]
+- ["C8PushPill27DoctorAccountViewController", "emailLabel"]
+- ["C8PushPill27DoctorAccountViewController", "getDoctor"]
+- ["C8PushPill27DoctorAccountViewController", "init"]
+- ["C8PushPill27DoctorAccountViewController", "nameLabel"]
+- !private ["C8PushPill27DoctorAccountViewController", "print"]
+- ["C8PushPill27DoctorAccountViewController", "viewDidLoad"]
+- ["C8PushPill27DoctorAccountViewController", "viewWillAppear"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Alamofire"]
+- !private ["Ps9Equatable", "Config"]
+- !private ["Ps9Equatable", "GET"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "emailLabel"]
+- ["Ps9Equatable", "getDoctor"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "localizedDescription"]
+- ["Ps9Equatable", "nameLabel"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", "viewWillAppear"]
+- ["Ps9Equatable", ""]
+- !private ["Ps9ErrorType", "localizedDescription"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "Alamofire"]
+- !private ["Ps8Hashable", "Config"]
+- !private ["Ps8Hashable", "GET"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "emailLabel"]
+- ["Ps8Hashable", "getDoctor"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "localizedDescription"]
+- ["Ps8Hashable", "nameLabel"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", "viewWillAppear"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- !private ["P12ObjectMapper8Mappable", "email"]
+- !private ["P12ObjectMapper8Mappable", "name"]
+- !private ["O9Alamofire6Method", "GET"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "Alamofire"]
+- !private ["PSo8NSCoding", "Config"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "emailLabel"]
+- ["PSo8NSCoding", "getDoctor"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "localizedDescription"]
+- ["PSo8NSCoding", "nameLabel"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "viewWillAppear"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "localizedDescription"]
+- !private ["CSo7NSError", "localizedDescription"]
+- !private ["PSo26NSExtensionRequestHandling", "Alamofire"]
+- !private ["PSo26NSExtensionRequestHandling", "Config"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "emailLabel"]
+- ["PSo26NSExtensionRequestHandling", "getDoctor"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "nameLabel"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "Alamofire"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "Config"]
+- !private ["CSo8NSObject", "Doctor"]
+- !private ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "Response"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "emailLabel"]
+- ["CSo8NSObject", "getDoctor"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "localizedDescription"]
+- ["CSo8NSObject", "nameLabel"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "viewWillAppear"]
+- !private ["PSo16NSObjectProtocol", "Alamofire"]
+- !private ["PSo16NSObjectProtocol", "Config"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "emailLabel"]
+- ["PSo16NSObjectProtocol", "getDoctor"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "localizedDescription"]
+- ["PSo16NSObjectProtocol", "nameLabel"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "localizedDescription"]
+- !private ["CSo8NSString", "init"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps16RawRepresentable", "GET"]
+- !private ["C9Alamofire7Request", "responseObject"]
+- !private ["V9Alamofire8Response", "result"]
+- !private ["O9Alamofire6Result", "Failure"]
+- !private ["O9Alamofire6Result", "Success"]
+- !private ["Ps12SequenceType", "Key"]
+- !private ["Ps12SequenceType", "Value"]
+- !private ["Ps10Streamable", "init"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "Alamofire"]
+- !private ["PSo21UIAppearanceContainer", "Config"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "emailLabel"]
+- ["PSo21UIAppearanceContainer", "getDoctor"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "nameLabel"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "viewWillAppear"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "Alamofire"]
+- !private ["PSo18UIContentContainer", "Config"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "emailLabel"]
+- ["PSo18UIContentContainer", "getDoctor"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "nameLabel"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "viewWillAppear"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "Alamofire"]
+- !private ["PSo18UIFocusEnvironment", "Config"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "emailLabel"]
+- ["PSo18UIFocusEnvironment", "getDoctor"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "nameLabel"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo7UILabel", "text"]
+- !private ["CSo11UIResponder", "Alamofire"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "Config"]
+- !private ["CSo11UIResponder", "Doctor"]
+- !private ["CSo11UIResponder", "NSError"]
+- !private ["CSo11UIResponder", "Response"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "emailLabel"]
+- ["CSo11UIResponder", "getDoctor"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "nameLabel"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- !private ["PSo16UIStateRestoring", "Alamofire"]
+- !private ["PSo16UIStateRestoring", "Config"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "emailLabel"]
+- ["PSo16UIStateRestoring", "getDoctor"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "nameLabel"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "viewWillAppear"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "Alamofire"]
+- !private ["PSo18UITraitEnvironment", "Config"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "emailLabel"]
+- ["PSo18UITraitEnvironment", "getDoctor"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "nameLabel"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "viewWillAppear"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo16UIViewController", "Alamofire"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "Config"]
+- !private ["CSo16UIViewController", "Doctor"]
+- !private ["CSo16UIViewController", "NSError"]
+- !private ["CSo16UIViewController", "Response"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "emailLabel"]
+- ["CSo16UIViewController", "getDoctor"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "nameLabel"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["P9Alamofire20URLStringConvertible", "deinit"]
+- !private ["P9Alamofire20URLStringConvertible", "init"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps12_Reflectable", "Key"]
+- !private ["Ps12_Reflectable", "Value"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "text"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- !private "C8PushPill6Config"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Ps28DictionaryLiteralConvertible"
+- !private "C8PushPill6Doctor"
+- "C8PushPill27DoctorAccountViewController"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps9ErrorType"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "P10SwiftyJSON17JSONSubscriptType"
+- !private "P12ObjectMapper8Mappable"
+- !private "O9Alamofire6Method"
+- !private "Ps14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps16RawRepresentable"
+- !private "C9Alamofire7Request"
+- !private "V9Alamofire8Response"
+- !private "O9Alamofire6Result"
+- !private "Ps12SequenceType"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "P9Alamofire20URLStringConvertible"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-umbrella.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/module.modulemap"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDecoder.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/parkingsq1/Documents/project/PushPill/DerivedData/PushPill/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+interface-hash: "868e9a7d7946de24dfef565950621070"

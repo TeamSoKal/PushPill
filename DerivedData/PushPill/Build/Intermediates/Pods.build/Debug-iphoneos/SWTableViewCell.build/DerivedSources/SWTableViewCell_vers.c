@@ -1,0 +1,1 @@
+ const unsigned char SWTableViewCellVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:SWTableViewCell  PROJECT:Pods-1" "\n"; const double SWTableViewCellVersionNumber __attribute__ ((used)) = (double)1.;
